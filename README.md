@@ -1,6 +1,6 @@
 # Number Logic Problems in C (100 Questions)
 
-This repository contains solutions for **100 number logic problems** implemented in **C language**.
+This repository contains solutions for **100 number logic problems +** implemented in **C language**.
 
 ## 📌 About the Code
 - All problems are implemented as **separate functions**
