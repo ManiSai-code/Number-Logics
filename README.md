@@ -19,7 +19,7 @@ This repository contains solutions for **100 number logic problems +** implement
 | pdf.c | Contains C functions for all 100 number logic problems |
 | Questions on number logics.pdf | PDF containing problem statements |
 | README.md | Project documentation |
-|other exe and .c files|for practice|
+|other .exe and .c files|for practice|
 ## Note : this repo contains more files and for number logic questions search for pdf.c ,this file have upto 100+ solutions for questions in the pdf and you can find those questions pdf in this repo.
 ## 📌 Important Files
 
