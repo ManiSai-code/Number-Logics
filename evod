@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int len(int n){
+    int c = 0;
+    while(n){
+        c++;
+        n /= 10;
+    }
+    return c;
+}
+
+int makeZeros(int l){
+    int z = 1;
+    while(l > 0){   // l times add zero
+        z *= 10;
+        l--;
+    }
+    return z;
+}
+
+int main() {
+
+    int n;
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    int temp = n;
+
+    int even = 0, odd = 0;
+    int pe = 1, po = 1; // place values separate for even & odd
+
+    while (temp > 0) {
+        int last = temp % 10;
+
+        if (last % 2 == 0) {
+            even = last * pe + even;
+            pe *= 10;
+        } else {
+            odd = last * po + odd;
+            po *= 10;
+        }
+
+        temp /= 10;
+    }
+
+    int len_odd = len(odd);
+    int zeros = makeZeros(len_odd);
+
+    int combined = even * zeros + odd;
+
+    printf("Even digits number: %d\n", even);
+    printf("Odd digits number : %d\n", odd);
+    printf("Combined number    : %d\n", combined);
+
+    return 0;
+}
