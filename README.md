@@ -19,7 +19,7 @@ This repository contains solutions for **100 number logic problems** implemented
 | pdf.c | Contains C functions for all 100 number logic problems |
 | Questions on number logics.pdf | PDF containing problem statements |
 | README.md | Project documentation |
-
+## Note : this repo contains more files and for number logic questions search for pdf.c ,this file have upto 100+ solutions for questions in the pdf and you can find those questions pdf in this repo.
 ## 📘 List of Number Logic Problems
 
 1. Check whether a number is even or odd  
@@ -51,3 +51,4 @@ This repository contains solutions for **100 number logic problems** implemented
 ```bash
 gcc pdf.c -o pdf
 ./pdf
+
