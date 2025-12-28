@@ -51,9 +51,14 @@ This repository contains solutions for **100 number logic problems +** implement
 ...
 100. And more............................................
 
-## ▶️ How to Run
 
+## 🧠 Practice Note
+
+You can use this repository to practice number logic problems in C by running and modifying each function to understand the logic clearly.
+
+## ▶️ How to Run
 ```bash
 gcc pdf.c -o pdf
-./pdf
+./pdf 
+
 
