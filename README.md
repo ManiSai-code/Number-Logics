@@ -23,7 +23,7 @@ This repository contains solutions for **100 number logic problems** implemented
 ## 📌 Important Files
 
 - 👉 **Main Source Code:** [`pdf.c`](pdf.c)
-- 👉 **Problem Statements PDF:** [`questions on number logics .pdf`](questionsonnumberlogics .pdf)
+- 👉 **Problem Statements PDF:** [`questions on number logics .pdf`](questionsonnumberlogics.pdf)
 
 ## 📘 List of Number Logic Problems
 
